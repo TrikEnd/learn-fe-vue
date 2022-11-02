@@ -1,0 +1,804 @@
+
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* arrow */
+.right-arrow {
+    float: right;
+    margin-top: -40px;
+    font-size: 150%;
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+    transition: 0.3s;
+}
+
+.right-arrow:hover {
+    color: rgb(0, 153, 255);    
+    transition: 0.3s;
+}
+
+
+/* background navbar */
+.background_navbar {
+    background-color: rgb(0, 75, 110);
+    width: 100%;
+    height: 160px;
+}
+
+/* navbar */
+
+.navbar{
+    padding-top: 40px;
+    color: white;
+    margin-bottom: 50px
+}
+
+.nav-item {
+    margin: 7px;
+}
+
+#PPDB {
+    background-color: #ffae00;
+    border-radius: 10px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    box-shadow: 0 0 10px rgb(59, 59, 59);
+}
+
+/* slide */
+
+
+.carousel {
+    width: 100%;
+    margin-right: auto;
+    display: inline-block;
+    clear: both;
+}
+
+#carouselExampleControls1 {
+    margin-left: auto;
+}
+
+#carouselExampleControls2 {
+    margin-right: auto;
+}
+
+#indicator {
+    padding: 100px;
+}
+
+#slide {
+    clear: both;
+}
+
+#slide1 {
+    margin-left: 20px;
+    margin-top: -30px;
+    width: 200px;
+}
+
+#slide2 {
+    margin-top: -30px;
+    width: 200px;
+}
+
+
+
+
+.d-block {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+
+
+/* layanan unggulan */
+.layanan_unggulan h1 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.layanan_unggulan p {
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+.layanan_unggulan {
+    margin-top: 100px;
+    clear: both;
+    padding-bottom: 50px;
+}
+
+.layanan_unggulan .ppdb {
+    background-image: url(../assets/gambar/book.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    
+}
+
+.layanan_unggulan .border {
+    border-radius: 1px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 20px;
+}
+
+.layanan_unggulan a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.layanan_unggulan a:hover {
+    transition: 0.3s;
+    color: rgb(0, 140, 255);
+}
+
+.layanan_unggulan img {
+    width:30px;
+   
+}
+
+
+
+/* berita */
+.berita {
+    background-color: rgb(245, 245, 245);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width: 980px) {
+    .card {
+        width: 100%;
+    }
+}
+
+.berita .judul h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.berita .judul p {
+    padding-top: 5px;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+.berita .card-body {
+    width: 100%;
+    height: 100%;
+}
+
+.berita .card {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+.berita .card-img-top {
+    width: 100%;
+    height: 200px;
+}
+
+/* agenda */
+.agenda {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(1, 107, 72);
+}
+
+.agenda .right-arrow {
+    float: right;
+    margin-top: -40px;
+    font-size: 150%;
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    transition: 0.3s;
+}
+
+.right-arrow:hover {
+    color: rgb(0, 153, 255);
+    transition: 0.3s;
+}
+
+.agenda .judul {
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.agenda .judul2 {
+    font-size: 13px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    color: white;
+}
+
+.agenda .card-img-top {
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+.agenda .isi_agenda .judul3 {
+    color: white;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.agenda .isi_agenda .judul4 {
+    color: white;
+    margin-bottom: 100px;
+}
+
+
+/* prestasi */
+.prestasi {
+    background-color: rgb(43, 43, 43);
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.prestasi .right-arrow {
+    float: right;
+    margin-top: -40px;
+    font-size: 120%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 40px;
+    transition: 0.3s;
+}
+
+.prestasi .right-arrow:hover {
+    color: rgb(0, 153, 255);
+    transition: 0.3s;
+}
+
+.prestasi .judul h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+  
+}
+
+.prestasi .judul p {
+    color: white;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.prestasi .card {
+    margin-bottom: 10px;
+    margin-right: 52px;
+    text-align: center;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.prestasi .card .card-img-top {
+    width: 100%;
+    height: 150px;
+}
+
+
+/* jurusan */
+.jurusan {
+    padding-bottom: 20px;
+}
+
+.jurusan h1 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.jurusan p {
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+.jurusan .img-fluid {
+    margin-right: auto;
+    width: 350px;
+    border-radius: 10px;
+}
+
+/* gambar */
+.gambar img {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+/* guru dan staff */
+@media screen and (max-width:780px) {
+    .img-fluid {
+        width: 100%;
+    }
+}
+
+.guru_staff {
+    background-color: #ffae00;
+    width: auto;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.guru_staff h1 {
+    margin-bottom: 5px;
+    font-size: 140%;
+}
+
+.guru_staff {
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.guru_staff .clear {
+    clear: both;
+}
+
+.guru_staff .img-fluid {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.guru_staff .judul {
+    margin-left: 10px;
+    float: left;    
+    font-size: 20px
+}
+
+.guru_staff .mapel {
+    margin-left: 10px;
+    clear: both;
+    float: left;
+    font-size: 13px;
+}
+
+
+.guru_staff img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    clear: both;
+}
+
+
+/* ekstrakulikuler */
+.ekstrakulikuler {
+    padding-top: 30px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.ekstrakulikuler .judul h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ekstrakulikuler .judul p {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.ekstrakulikuler .card-img-top {
+    width: 100%;
+    height: 200px;
+}
+
+/* pengumuman */
+.pengumuman {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    background-image: url(../assets/gambar/backgrounnd_pengumuman1.jpg);
+
+}
+
+.pengumuman .right-arrow {
+    float: right;
+    margin-top: -40px;
+    font-size: 150%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 40px;
+    transition: 0.3s;
+}
+
+.pengumuman .right-arrow:hover {
+    color: rgb(0, 153, 255);
+    transition: 0.3s;
+}
+
+.pengumuman h1{
+    font-size: 15px;
+    margin-right: auto;
+    padding-top: 20px;
+    color: white;
+}
+
+.pengumuman p {
+    color: white;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+.pengumuman .card {
+    text-align: center;
+    width: 300px;
+    margin-bottom: 4%;
+    margin: 2%;
+    border-radius: 20px;
+}
+
+.pengumuman .card-img-top {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+
+/* fasilitas */
+.fasilitas h1 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.fasilitas p {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.fasilitas .img-fluid {
+    border-radius: 20px;
+}
+
+
+/* galeri kegiatan */
+.galeri_kegiatan {
+    padding-top: 20px;
+    
+}
+
+
+.galeri_kegiatan h1 {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.galeri_kegiatan p {
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+
+.galeri_kegiatan .img-fluid {
+    width: 23rem;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 13px;
+}
+
+
+/* cerita alumni */
+.cerita_alumni {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box1 {
+    border-width: 7px;
+    border-color: rgb(82, 82, 82);
+    border-style: solid;
+    border-radius: 1px;
+    border-top: px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 20px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(223, 223, 223);
+}
+
+.box2 {
+    border-width: 7px;
+    border-color: rgb(82, 82, 82);
+    border-style: solid;
+    border-radius: 1px;
+    border-top: px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 20px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(223, 223, 223);
+}
+
+.cerita_alumni h1 {
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.cerita_alumni p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.cerita_alumni img {
+    width: 80px;
+    border-radius: 50%;
+    float: left;
+}
+
+.cerita_alumni h2 {
+    margin-left: 50px;
+    float: left;
+    font: 20px;
+}
+
+.cerita_alumni h3 {
+    margin-left: -85px;
+    padding-top: 40px;
+    float: left;
+    font-size: 13px;
+}
+
+.cerita_alumni a {
+    background-image: url(../assets/gambar/bubble-chat.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-right: 99px;
+    text-indent: -9999px;
+}
+
+/* link terkait */
+.link_terkait {
+    padding-bottom: 4%;
+}
+
+.link_terkait .logo {
+    width: 100%;
+    clear: both;
+}
+
+.link_terkait h1 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.link_terkait .judul {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* foto */
+.foto {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.foto .img-fluid {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    width: 900px;
+    border-radius: 10px;
+}
+
+/* galeri video */
+.galeri_video #video {
+    margin: 20px;
+    
+}
+
+
+.galeri_video p {
+    font-size: 13px
+}
+
+.galeri_video h1 {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.galeri_video {
+    margin-bottom: 20px;
+    
+}
+
+
+/* footer */
+.footer {   
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 300px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(59, 59, 59);
+}
+
+
+/* logo */
+.logo {
+    width: 250px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.logo .gambar_logo {
+    width: 150px;
+}
+
+
+/* media */
+.menu {
+    float: left;
+    margin-left: 20px;
+}
+
+.menu h1 {
+    font-size: 20px;
+}
+
+.menu .link_menu {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.menu .link_menu:hover {
+    transition: 0.3s;
+    color: rgb(0, 153, 255);
+}
+
+
+/* footer media */
+.media {
+    float: left;
+    margin-left: 20%;
+    width: 300px;
+}
+
+.media h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.media .facebook {
+    background-image: url(../assets/gambar/contact/facebook.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    position: absolute;
+    
+}
+
+.media .twitter {
+    background-image: url(../assets/gambar/contact/twitter.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    position: absolute;
+}
+
+.media .instagram {
+    background-image: url(../assets/gambar/contact/instagram.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    position: absolute;
+}
+
+.media .youtube {
+    background-image: url(../assets/gambar/contact/youtube.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    position: absolute;
+}
+
+.media .whatsapp {
+    background-image: url(../assets/gambar/contact/whatsapp.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    position: absolute;
+}
+
+
+
+.copyright {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 75, 110);
+    margin-top: 0px;
+}
